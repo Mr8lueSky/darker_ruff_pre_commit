@@ -7,7 +7,7 @@ To setup:
 ```yaml
 repos:
 -   repo: https://github.com/Mr8lueSky/darker_ruff_pre_commit
-    rev: main
+    rev: 0a8703f
     hooks:
     -   id: darker-ruff-check
 ```
