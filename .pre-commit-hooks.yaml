@@ -1,0 +1,9 @@
+- id: darker-ruff-check
+  name: darker-ruff-check
+  description: "Run ruff check with darker"
+  entry: darker -L "ruff check --fix" .
+  language: python
+  types_or: [python, pyi, jupyter]
+  args: []
+  require_serial: true
+  additional_dependencies: []
