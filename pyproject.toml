@@ -1,0 +1,10 @@
+[project]
+name = "darker-ruff"
+version = "0.1.0"
+description = "Pre-commit hooks with darker ruff"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "darker",
+    "ruff",
+]
